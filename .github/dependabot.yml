@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: cargo
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
     # This allows dependabot to update _all_ lockfile packages.
     #
     # These will be grouped into the existing group update PRs, so shouldn't generate additional jobs.
@@ -24,4 +24,4 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
